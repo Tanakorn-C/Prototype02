@@ -74,11 +74,10 @@
         android:layout_height="wrap_content"
         android:background="@drawable/border_2"
 
-        android:paddingVertical="20dp"
-        android:paddingHorizontal="186dp"
-        android:layout_marginLeft="29dp"
-        android:layout_marginTop="230dp"
-        android:text="" />
+        android:layout_marginHorizontal="30dp"
+        android:paddingHorizontal="200dp"
+        android:paddingVertical="25dp"
+        android:layout_marginTop="230dp"/>
 
     <TextView
         android:id="@+id/textView5"
