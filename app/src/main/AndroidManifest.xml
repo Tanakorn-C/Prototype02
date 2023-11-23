@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Prototype02"
         tools:targetApi="31">
         <activity
+            android:name=".cheatsheet1"
+            android:exported="false" />
+        <activity
+            android:name=".Article01"
+            android:exported="false" />
+        <activity
             android:name=".sign_up"
             android:exported="false" />
         <activity
