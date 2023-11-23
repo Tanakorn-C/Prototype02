@@ -64,7 +64,7 @@
         android:text="Java คืออะไร" />
 
     <Button
-        android:id="@+id/excerciseJava"
+        android:id="@+id/exerciseJava"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/whatIsJava"
@@ -77,7 +77,7 @@
         android:id="@+id/cheatSheetJava"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/excerciseJava"
+        android:layout_below="@id/exerciseJava"
         android:paddingHorizontal="115dp"
         android:layout_marginLeft="65dp"
         android:gravity="center"
