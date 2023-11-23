@@ -14,7 +14,9 @@ public class courseSelection extends AppCompatActivity {
 
     MaterialButton btnBack;
     MaterialButton whatIsJava;
+    MaterialButton exerciseJava;
     MaterialButton cheatSheetJava;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +25,8 @@ public class courseSelection extends AppCompatActivity {
 
         btnBack = findViewById(R.id.btnBack);
         whatIsJava = findViewById(R.id.whatIsJava);
-        cheatSheetJava = findViewById(R.id.cheatSheetJava); // Assuming cheatSheetJava is the correct ID in your layout
+        exerciseJava = findViewById(R.id.exerciseJava);
+        cheatSheetJava = findViewById(R.id.cheatSheetJava);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +39,14 @@ public class courseSelection extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(courseSelection.this, Article01.class);
+                startActivity(i);
+            }
+        });
+
+        exerciseJava.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(courseSelection.this, exercise01.class);
                 startActivity(i);
             }
         });
