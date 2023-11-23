@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Prototype02</string>
+    <string name="print_line_n">Print Line\n</string>
+    <string name="n_n_system_out_println_can_print_to_the_console_n_n_system_is_a_class_from_the_core_library_provided_by_java_n_out_is_an_object_that_controls_the_output_n_println_is_a_method_associated_with_that_n_object_that_receives_a_single_argument">\n\n System.out.println() can print to the console:\n\n • System is a class from the core library provided by Java\n • out is an object that controls the output\n • println() is a method associated with that\n object that receives a single argument</string>
 </resources>
