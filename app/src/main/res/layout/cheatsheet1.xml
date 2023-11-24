@@ -26,8 +26,6 @@
         android:text="@string/n_n_system_out_println_can_print_to_the_console_n_n_system_is_a_class_from_the_core_library_provided_by_java_n_out_is_an_object_that_controls_the_output_n_println_is_a_method_associated_with_that_n_object_that_receives_a_single_argument"
         android:layout_marginStart="15dp"
         android:layout_marginTop="80dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="46dp"
         android:textColor="#989BBD"/>
 
     <com.google.android.material.button.MaterialButton

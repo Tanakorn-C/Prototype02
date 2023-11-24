@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-
+ 
         android:paddingHorizontal="110dp"
         android:layout_marginLeft="65dp"
         android:gravity="center"
@@ -64,7 +64,7 @@
         android:text="Java คืออะไร" />
 
     <Button
-        android:id="@+id/exerciseJava"
+        android:id="@+id/excerciseJava"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/whatIsJava"
@@ -73,28 +73,28 @@
         android:gravity="center"
         android:text="แบบฝึกหัด" />
 
-    <Button
-        android:id="@+id/cheatSheetJava"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/exerciseJava"
-        android:paddingHorizontal="115dp"
-        android:layout_marginLeft="65dp"
-        android:gravity="center"
-        android:text="Cheatsheet" />
+<!--    <Button-->
+<!--        android:id="@+id/cheatSheetJava"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/excerciseJava"-->
+<!--        android:paddingHorizontal="115dp"-->
+<!--        android:layout_marginLeft="65dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Cheatsheet" />-->
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="290dp"
+        android:layout_marginTop="600dp"
         android:layout_marginBottom="32dp"
-        android:backgroundTint="@color/black"
 
-        android:layout_marginTop="680dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/black"
         android:text="Back"
         app:cornerRadius="10dp"
-        android:background="@drawable/border"
         app:icon="@drawable/baseline_keyboard_backspace_24"
         app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

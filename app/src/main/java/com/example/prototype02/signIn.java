@@ -2,7 +2,6 @@ package com.example.prototype02;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +20,7 @@ public class signIn extends AppCompatActivity {
         TextView username = findViewById(R.id.username);
         TextView password = findViewById(R.id.password_toggle);
 
-        MaterialButton loginbtn = findViewById(R.id.loginbtn);
+        MaterialButton loginbtn = findViewById(R.id.login_btn);
 
         //admin and admin
 
@@ -36,12 +35,14 @@ public class signIn extends AppCompatActivity {
                 } else {
                     // Incorrect credentials
                     Toast.makeText(signIn.this, "LOGIN FAILED !!!", Toast.LENGTH_SHORT).show();
+                    Intent i = new Intent(signIn.this, mainCourse.class);
+                    startActivity(i);
                 }
             }
         });
 
-                TextView createacc =(TextView)findViewById(R.id.createacc);
-                createacc.setOnClickListener(new View.OnClickListener() {
+                TextView create_acc =(TextView)findViewById(R.id.create_acc);
+        create_acc.setOnClickListener(new View.OnClickListener() {
 
                     public void onClick(View v) {
                         Intent i = new Intent(signIn.this, sign_up.class);
