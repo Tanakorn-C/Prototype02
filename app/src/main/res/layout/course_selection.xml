@@ -37,7 +37,7 @@
         android:textSize="25sp"
         android:paddingHorizontal="50dp"
         android:layout_marginTop="70dp"
-        android:text="เรียน Java" />
+        android:text="Learn Java" />
 
     <TextView
         android:id="@+id/textView10"
@@ -61,7 +61,7 @@
         android:layout_marginLeft="65dp"
         android:gravity="center"
         android:layout_marginTop="178dp"
-        android:text="Java คืออะไร" />
+        android:text="What is Java" />
 
     <Button
         android:id="@+id/excerciseJava"
@@ -71,7 +71,7 @@
         android:paddingHorizontal="120dp"
         android:layout_marginLeft="65dp"
         android:gravity="center"
-        android:text="แบบฝึกหัด" />
+        android:text="Excercise" />
 
 <!--    <Button-->
 <!--        android:id="@+id/cheatSheetJava"-->

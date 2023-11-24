@@ -57,6 +57,7 @@
             android:src="@drawable/profile_spider" />
     </androidx.cardview.widget.CardView>
 
+
     <Button
         android:id="@+id/courseBtn"
         android:layout_width="match_parent"
@@ -67,6 +68,9 @@
         android:paddingVertical="50dp"
         android:layout_marginTop="230dp"
         android:text="Button" />
+
+
+
 
     <TextView
         android:id="@+id/textView4"
@@ -97,7 +101,37 @@
         android:textSize="25sp"
         android:paddingHorizontal="50dp"
         android:layout_marginTop="255dp"
-        android:text="เรียน Java เบื้องต้น" />
+        android:text="Learn Java" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:paddingHorizontal="50dp"
+        android:layout_marginTop="310dp"
+        android:text="Boost yor skills with key concepts you haven't mastered yet\nor meed extra attention on." />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+
+        android:layout_marginTop="350dp"
+        android:src="@drawable/forward_arrow"
+        app:iconTint="@color/black"
+        />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="230dp"
+        android:paddingLeft="100dp"
+        android:src="@drawable/forward_arrow" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnLogout"
