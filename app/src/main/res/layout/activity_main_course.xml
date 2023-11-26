@@ -51,8 +51,8 @@
         android:layout_marginLeft="250dp">
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="116dp"
+            android:layout_height="106dp"
 
             android:src="@drawable/profile_spider" />
     </androidx.cardview.widget.CardView>
@@ -67,7 +67,8 @@
         android:paddingHorizontal="200dp"
         android:paddingVertical="50dp"
         android:layout_marginTop="230dp"
-        android:text="Button" />
+        android:elevation="8dp"
+        android:text="Button"/>
 
     <TextView
         android:id="@+id/textView4"
