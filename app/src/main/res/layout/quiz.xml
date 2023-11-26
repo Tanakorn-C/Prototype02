@@ -62,6 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/choicesRadioGroup"
+        android:backgroundTint="#00BCD4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Submit"/>
@@ -80,6 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Restart Quiz"
+        android:backgroundTint="#00BCD4"
         android:layout_below="@id/submitButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
@@ -92,8 +94,9 @@
         android:layout_marginTop="600dp"
         android:layout_marginBottom="32dp"
 
+
         android:background="@drawable/border"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="#00BCD4"
         android:text="Back"
         app:cornerRadius="10dp"
         app:icon="@drawable/baseline_keyboard_backspace_24"

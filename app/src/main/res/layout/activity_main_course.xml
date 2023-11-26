@@ -62,15 +62,12 @@
         android:id="@+id/courseBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/border"
+        android:background="@drawable/custom_button_gradient"
         android:layout_marginHorizontal="30dp"
         android:paddingHorizontal="200dp"
         android:paddingVertical="50dp"
         android:layout_marginTop="230dp"
         android:text="Button" />
-
-
-
 
     <TextView
         android:id="@+id/textView4"
@@ -110,8 +107,8 @@
         android:textColor="@color/black"
         android:textSize="12sp"
         android:paddingHorizontal="50dp"
-        android:layout_marginTop="310dp"
-        android:text="Boost yor skills with key concepts you haven't mastered yet\nor meed extra attention on." />
+        android:layout_marginTop="330dp"
+        android:text="Boost your skills with key concepts you haven't mastered yet\nor need extra attention on." />
 
     <TextView
         android:id="@+id/textView8"
@@ -128,8 +125,8 @@
     <ImageView
         android:layout_width="151dp"
         android:layout_height="236dp"
-        android:layout_marginTop="145dp"
         android:layout_marginLeft="230dp"
+        android:layout_marginTop="145dp"
         android:paddingLeft="100dp"
         android:src="@drawable/forward_arrow" />
 
@@ -149,5 +146,66 @@
         app:iconTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="#989BBD"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="380dp"
+        android:paddingHorizontal="1dp" />
+
+    <View
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="#989BBD"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="405dp"
+        android:paddingHorizontal="1dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingHorizontal="60dp"
+        android:layout_marginTop="382dp"
+        android:text="PRACTICE" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#E6D7D7"
+        android:textSize="9sp"
+
+        android:paddingHorizontal="135dp"
+        android:layout_marginTop="387dp"
+        android:text="3 min" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+
+        android:layout_alignParentTop="@+id/courseBtn"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="High priority"
+        android:textSize="12dp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="0dp"
+        android:layout_marginTop="305dp"/>
+
 
 </RelativeLayout>

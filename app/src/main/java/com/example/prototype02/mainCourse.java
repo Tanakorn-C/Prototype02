@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,6 +45,9 @@ public class mainCourse extends AppCompatActivity {
         Log.d("myLOG", splitDate[0].trim());
         Log.d("myLOG", splitDate[1].trim());
         Log.d("myLOG", splitDate[2].trim());
+
+//        ProgressBar simpleProgressBar=(ProgressBar) findViewById(R.id.progressBar); // initiate the progress bar
+//        int maxValue=simpleProgressBar.getMax(); // get maximum value of the progress bar
 
         @SuppressLint("WrongViewCast") MaterialButton courseBtn = findViewById(R.id.courseBtn);
 
