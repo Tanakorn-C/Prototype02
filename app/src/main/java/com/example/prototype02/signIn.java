@@ -35,8 +35,8 @@ public class signIn extends AppCompatActivity {
                 } else {
                     // Incorrect credentials
                     Toast.makeText(signIn.this, "LOGIN FAILED !!!", Toast.LENGTH_SHORT).show();
-//                    Intent i = new Intent(signIn.this, mainCourse.class);
-//                    startActivity(i);
+                    Intent i = new Intent(signIn.this, mainCourse.class);
+                    startActivity(i);
                 }
             }
         });

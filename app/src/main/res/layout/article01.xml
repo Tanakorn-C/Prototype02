@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/darknavy"
     tools:context=".Article01">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBack"
@@ -68,4 +74,100 @@ public class HelloWorld {\n
  }"
         android:textColor="#989BBD"/>
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/articleStructure01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/articleStructure3"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/border"
+        android:paddingHorizontal="186dp"
+        android:paddingVertical="140dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/articleStructure02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/articleStructure3"
+        android:layout_marginTop="120dp"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="10dp"
+        android:text="Classes"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/articleStructure03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="11dp"
+        android:layout_below="@id/articleStructure3"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/box"
+
+        android:gravity="left"
+        android:paddingHorizontal="33dp"
+        android:paddingVertical="20dp"
+        android:text="public class HelloWorld {\n
+  // class code\n
+}\n\n
+
+This is the class of the file. All Java programs are\n
+ made of at least one class. The class name must \n
+ match the file: our file is HelloWorld.\n
+ java and our class is HelloWorld.\n"
+        android:textColor="#989BBD"/>
+
+    <TextView
+        android:id="@+id/articleStructure001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/articleStructure03"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/border"
+        android:paddingHorizontal="186dp"
+        android:paddingVertical="140dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/articleStructure002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/articleStructure03"
+        android:layout_marginTop="120dp"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="10dp"
+        android:text="Methods"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/articleStructure003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="11dp"
+        android:layout_below="@id/articleStructure03"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/box"
+
+        android:gravity="left"
+        android:paddingHorizontal="33dp"
+        android:paddingVertical="20dp"
+        android:text="  public static void main(String[] args) {\n
+   // Statements\n
+  }\n\n
+
+Every Java program must have a method\n
+called main(). A method is a sequence of tasks\n
+ for the computer to execute. This main() method\n
+  holds all of the instructions for our program."
+        android:textColor="#989BBD"/>
+
+    </RelativeLayout>
+</ScrollView>
+

@@ -32,9 +32,9 @@ public class quiz extends AppCompatActivity {
     };
 
     private String[] correctAnswers = {
-            "The main() method: public static void main(String[] args) {}\n",
+            "The main() method: public static void main(String[] args) {}",
             "They provide human-readable notes that clarify thinking.",
-            "True"
+            "True."
     };
 
     private String[][] choices = {

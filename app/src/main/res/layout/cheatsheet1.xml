@@ -1,18 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_light"
-    tools:context=".cheatsheet1">
+    android:background="@color/darknavy"
+    tools:context=".Article01">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="15dp"
+        android:text="Back"
+        app:cornerRadius="10dp"
+        android:background="@drawable/border"
+        app:icon="@drawable/baseline_keyboard_backspace_24"
+        app:iconTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="401dp"
-        android:layout_height="341dp"
-        android:background="@drawable/box"
-        android:text="@string/print_line_n"
+        android:layout_height="170dp"
+        android:background="@drawable/custom_button_gradient"
+        android:text="\n  Print Line"
         android:layout_marginStart="15dp"
         android:layout_marginTop="80dp"
         tools:layout_editor_absoluteX="16dp"
@@ -22,26 +42,64 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="401dp"
-        android:layout_height="341dp"
+        android:layout_height="151dp"
         android:text="@string/n_n_system_out_println_can_print_to_the_console_n_n_system_is_a_class_from_the_core_library_provided_by_java_n_out_is_an_object_that_controls_the_output_n_println_is_a_method_associated_with_that_n_object_that_receives_a_single_argument"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="90dp"
         android:textColor="#989BBD"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginBottom="32dp"
-        android:backgroundTint="@color/black"
 
-        android:layout_marginTop="15dp"
-        android:text="Back"
-        app:cornerRadius="10dp"
-        android:background="@drawable/border"
-        app:icon="@drawable/baseline_keyboard_backspace_24"
-        app:iconTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-</RelativeLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="401dp"
+        android:layout_height="170dp"
+        android:background="@drawable/custom_button_gradient"
+        android:text="\n  Comments"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp"
+        android:textColor="#989BBD"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="401dp"
+        android:layout_height="151dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="90dp"
+        android:text="  Comments are bits of text that are ignored by the compiler.\n
+        They are used to increase the readability of a program.\n\n
+ • Single line comments are created by using //.\n
+ • Multi-line comments are created by starting with /* \n
+    and ending with */."
+        android:layout_marginStart="15dp"
+        android:textColor="#989BBD"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="401dp"
+        android:layout_height="120dp"
+        android:background="@drawable/custom_button_gradient"
+        android:text="\n  Compiling Java"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="46dp"
+        android:textColor="#989BBD"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="401dp"
+        android:layout_height="143dp"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="90dp"
+        android:text="  In Java, when we compile a program, each individual class\n
+ is converted into a .class file, which is known as byte code.\n
+ The JVM (Java virtual machine) is used to run the byte code."
+        android:layout_marginStart="15dp"
+        android:textColor="#989BBD"/>
+
+    </RelativeLayout>
+</ScrollView>
