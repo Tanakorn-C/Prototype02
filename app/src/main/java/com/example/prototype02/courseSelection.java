@@ -26,7 +26,7 @@ public class courseSelection extends AppCompatActivity {
         btnBack = findViewById(R.id.btnBack);
         whatIsJava = findViewById(R.id.whatIsJava);
         exerciseJava = findViewById(R.id.excerciseJava);
-//        cheatSheetJava = findViewById(R.id.cheatSheetJava);
+        cheatSheetJava = findViewById(R.id.cheatSheetJava);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,12 +51,12 @@ public class courseSelection extends AppCompatActivity {
             }
         });
 
-//        cheatSheetJava.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent z = new Intent(courseSelection.this, cheatsheet1.class);
-//                startActivity(z);
-//            }
-//        });
+        cheatSheetJava.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent z = new Intent(courseSelection.this, cheatsheet1.class);
+                startActivity(z);
+            }
+        });
     }
 }

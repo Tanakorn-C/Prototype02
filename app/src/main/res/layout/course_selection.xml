@@ -73,15 +73,16 @@
         android:gravity="center"
         android:text="Excercise" />
 
-<!--    <Button-->
-<!--        android:id="@+id/cheatSheetJava"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/excerciseJava"-->
-<!--        android:paddingHorizontal="115dp"-->
-<!--        android:layout_marginLeft="65dp"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Cheatsheet" />-->
+    <Button
+        android:id="@+id/cheatSheetJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/excerciseJava"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:paddingHorizontal="115dp"
+        android:text="Cheatsheet" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnBack"
